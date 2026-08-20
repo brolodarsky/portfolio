@@ -108,19 +108,18 @@ export default function HeroTelemetry({ telemetry = NEXUS_TELEMETRY }: HeroTelem
 
           {/* Main Hero Typography */}
           <h1 className="font-heading text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight max-w-5xl leading-[1.1] mb-6">
-            Architecting <span className="text-gradient">Autonomous Intelligence</span>{" "}
+            Architecting <span className="text-gradient">Compound AI Systems</span>{" "}
             <br className="hidden sm:inline" />
-            &amp; <span className="text-gradient-indigo">Production AI Swarms</span>.
+            &amp; <span className="text-gradient-indigo">Operations Automation</span>.
           </h1>
 
           {/* Elevator Subheading */}
           <p className="max-w-3xl text-base sm:text-lg md:text-xl text-slate-300 font-normal leading-relaxed mb-10 text-balance">
-            I am <span className="text-white font-semibold">William Volodarsky</span> — an{" "}
-            <span className="text-indigo-300 font-medium">Agentic AI Engineer</span> &amp; Systems
-            Orchestrator (Fordham CS, Magna Cum Laude). I build local-first multi-agent systems
-            using <span className="text-cyan-300 font-medium">LangGraph</span>, deterministic
-            context injection, and human-in-the-loop governance to replace fragile AI demos with
-            reliable production infrastructure.
+            I am <span className="text-white font-semibold">William Volodarsky</span> — a{" "}
+            <span className="text-indigo-300 font-medium">Forward Deployed AI &amp; Systems Engineer</span>{" "}
+            (Fordham CS, Magna Cum Laude). I architect <span className="text-white font-medium">Compound AI Systems</span>, 
+            enterprise operations automation, and <span className="text-cyan-300 font-medium">domain knowledge ontologies</span> using{" "}
+            <span className="text-indigo-300 font-medium">LangGraph</span>, Deterministic Pre-flight Hydration (DPFH), and two-phase commit HITL governance to turn probabilistic models into resilient production infrastructure.
           </p>
 
           {/* Quick Action Dock */}

@@ -24,9 +24,9 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-slate-400 text-xs leading-relaxed max-w-md">
-              Agentic AI Engineer specializing in multi-agent LangGraph swarms, Deterministic
-              Pre-flight Hydration, and Human-in-the-Loop governance. Built on a foundation of 8
-              years of operational leadership.
+              Forward Deployed AI &amp; Systems Engineer specializing in Compound AI Systems, 
+              Domain Knowledge Ontologies, Deterministic Pre-flight Hydration, and Two-Phase Commit HITL Governance. 
+              Built on a foundation of 8 years of operational leadership.
             </p>
             <div className="flex items-center gap-3 text-slate-400 pt-2">
               <a
@@ -63,7 +63,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#nexus" className="hover:text-white transition-colors">
-                  Nexus Agentic OS
+                  Nexus Compound OS
                 </a>
               </li>
               <li>

@@ -37,11 +37,11 @@ export default function NexusShowcase({ telemetry = NEXUS_TELEMETRY }: NexusShow
             <span>FLAGSHIP ARCHITECTURE</span>
           </div>
           <h2 className="font-heading text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Nexus: The Multi-Agent <span className="text-gradient-indigo">Cognitive OS</span>
+            Nexus: The Compound <span className="text-gradient-indigo">Agentic Personal OS</span>
           </h2>
           <p className="text-base sm:text-lg text-slate-300 max-w-3xl leading-relaxed">
-            Replacing single-prompt toy demos with a stateful, local-first multi-agent swarm. 
-            Nexus orchestrates health, career, and research workflows across 500+ structured markdown notes 
+            Replacing single-prompt toy demos with a stateful, local-first compound AI system. 
+            Nexus orchestrates health, career, and research workflows across a 500+ node structured domain ontology 
             with zero hallucinated file structures.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function NexusShowcase({ telemetry = NEXUS_TELEMETRY }: NexusShow
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-xs font-mono-code text-indigo-400 font-semibold uppercase tracking-wider">
-                  01 // CONTEXT PARADIGM
+                  01 // ONTOLOGY &amp; CONTEXT
                 </span>
                 <Zap className={`w-4 h-4 ${activeTab === "dpfh" ? "text-indigo-400" : "text-slate-600"}`} />
               </div>
@@ -68,7 +68,7 @@ export default function NexusShowcase({ telemetry = NEXUS_TELEMETRY }: NexusShow
                 Deterministic Pre-Flight Hydration (DPFH)
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed">
-                Why live folder structure injection outperforms traditional chunked Vector RAG for knowledge bases.
+                Why live domain ontology injection outperforms traditional chunked Vector RAG for knowledge bases.
               </p>
             </button>
 

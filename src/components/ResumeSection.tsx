@@ -70,10 +70,10 @@ export default function ResumeSection() {
                 William Volodarsky
               </h3>
               <p className="text-sm font-mono-code text-indigo-400">
-                Agentic AI Engineer &amp; Systems Orchestrator
+                Forward Deployed AI &amp; Systems Engineer
               </p>
               <p className="text-xs text-slate-400 mt-1">
-                Fort Lee, NJ 07024 • bill@williamvolodarsky.com • github.com/brolodarsky • linkedin.com/in/williamvolodarsky
+                Fort Lee, NJ 07024 • bill@williamvolodarsky.com • williamvolodarsky.com • github.com/brolodarsky • linkedin.com/in/williamvolodarsky
               </p>
             </div>
 
@@ -95,18 +95,14 @@ export default function ResumeSection() {
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               {viewMode === "executive" ? (
                 <span>
-                  High-agency <strong>Agentic AI Engineer</strong> and CS graduate (Magna Cum Laude, Fordham) who bridges 
-                  sophisticated multi-agent machine learning pipelines with 8 years of operational business leadership 
+                  High-agency <strong>Forward Deployed AI &amp; Systems Engineer</strong> and CS graduate (Magna Cum Laude, Fordham) who bridges 
+                  sophisticated compound AI systems and domain ontologies with 8 years of operational business leadership 
                   (2x revenue growth, 100% HIPAA compliance). Creator of <strong>Nexus</strong>, an autonomous agentic OS 
-                  engineered to automate complex analytical workflows with mathematical rigor and zero hallucinated file structures.
+                  engineered to automate complex operational and analytical workflows with mathematical rigor and zero hallucinated file structures.
                 </span>
               ) : (
                 <span>
-                  Agentic AI Engineer (CS, Magna Cum Laude) and creator of <strong>Nexus</strong>, a production-grade Agentic OS 
-                  featuring a multi-agent <strong>LangGraph</strong> pipeline with <strong>Deterministic Pre-flight Hydration</strong>, 
-                  a full-stack <strong>Next.js + FastAPI</strong> control panel with HITL governance, an <strong>LLM-as-a-Judge</strong> 
-                  evaluation framework, and 12 deployed automation tools. Eight years of business operations leadership provides the 
-                  systems judgment to ship robust, compliant AI systems that solve real-world problems.
+                  Forward Deployed AI &amp; Systems Engineer (CS, Magna Cum Laude) specializing in <strong>Compound AI Architectures, Business Operations Automation, and Domain Ontology Engineering</strong>. Creator of <strong>Nexus</strong>, a production-grade agentic operating system combining multi-agent <strong>LangGraph</strong> state machines with <strong>Deterministic Pre-flight Hydration (DPFH)</strong>, two-phase commit <strong>HITL governance</strong>, and an automated <strong>LLM-as-a-Judge</strong> evaluation harness. Eight years of business operations and clinical data leadership provides the cross-functional domain expertise to turn ambiguous operational bottlenecks into resilient, auditable AI systems.
                 </span>
               )}
             </p>
@@ -115,31 +111,31 @@ export default function ResumeSection() {
           {/* Flagship Engineering: Nexus */}
           <div>
             <h4 className="text-xs font-mono-code text-cyan-400 uppercase tracking-wider mb-3 font-bold">
-              02 // Flagship Project: Nexus (Agentic OS)
+              02 // Flagship Project: Nexus (Compound Agentic OS)
             </h4>
             <div className="space-y-3 text-xs sm:text-sm text-slate-300">
               <div className="flex items-start gap-2.5">
                 <span className="text-indigo-400 font-bold">•</span>
                 <span>
-                  <strong>Multi-Agent Orchestration Pipeline:</strong> Built a <strong>LangGraph</strong> content router that classifies incoming queries and dispatches to domain-specialized agents via conditional edges. The Career Agent implements <strong>Deterministic Pre-flight Hydration</strong> — a zero-cost Python orchestration node injects live vault file listings and declared dependencies into the system prompt before each LLM call, eliminating hallucinated context.
+                  <strong>Compound Multi-Agent Orchestration:</strong> Architected a <strong>LangGraph</strong> content router dispatching to domain-specialized agents via conditional state-machine edges. Implemented <strong>Deterministic Pre-flight Hydration (DPFH)</strong> — a zero-cost Python orchestration node injecting live schemas, directory structures, and dependency graphs into system prompts at query time, eliminating hallucinated tool invocations and reducing round-trip discovery latency by 13%.
                 </span>
               </div>
               <div className="flex items-start gap-2.5">
                 <span className="text-indigo-400 font-bold">•</span>
                 <span>
-                  <strong>Filesystem-Native Retrieval (Librarian Agent):</strong> Replaced an earlier ChromaDB Vector RAG pipeline with a <strong>LangGraph</strong> ReAct agent traversing 200+ notes via four filesystem tools (<code className="text-indigo-300 font-mono-code">read_toc</code>, <code className="text-indigo-300 font-mono-code">read_note</code>, <code className="text-indigo-300 font-mono-code">search_vault</code>, <code className="text-indigo-300 font-mono-code">get_vault_structure</code>) with tree-based directory injection and frontmatter filtering.
+                  <strong>Domain Ontology &amp; Filesystem Semantic Layer:</strong> Engineered a structured knowledge ontology across 500+ interconnected markdown nodes, replacing fragile vector chunking with a tree-based semantic layer. Built a <strong>LangGraph</strong> ReAct agent traversing the ontology via scoped filesystem tools (<code className="text-indigo-300 font-mono-code">read_toc</code>, <code className="text-indigo-300 font-mono-code">read_note</code>, <code className="text-indigo-300 font-mono-code">search_vault</code>, <code className="text-indigo-300 font-mono-code">get_vault_structure</code>) with dynamic frontmatter filtering to deliver 100% grounded citations.
                 </span>
               </div>
               <div className="flex items-start gap-2.5">
                 <span className="text-indigo-400 font-bold">•</span>
                 <span>
-                  <strong>Full-Stack HITL Control Panel:</strong> Engineered a <strong>Next.js + Tailwind CSS</strong> dashboard backed by <strong>FastAPI</strong> for real-time agent fleet monitoring, conversational search, and a <strong>Monaco Editor</strong> side-by-side diff viewer for pre-commit review of autonomous agent writes — backed by a <strong>SQLite</strong> transaction queue.
+                  <strong>Two-Phase Commit HITL Governance:</strong> Engineered a full-stack <strong>Next.js 16 + FastAPI</strong> control center featuring real-time SSE trace streaming and a <strong>Monaco Editor</strong> side-by-side diff viewer for pre-commit human review of autonomous agent writes — backed by an auditable <strong>SQLite</strong> transaction queue with approve/reject governance.
                 </span>
               </div>
               <div className="flex items-start gap-2.5">
                 <span className="text-indigo-400 font-bold">•</span>
                 <span>
-                  <strong>Evaluation &amp; Observability:</strong> Built an automated <strong>LLM-as-a-Judge</strong> eval framework grading responses on accuracy, groundedness, and hallucination detection via a 12-case golden dataset with structured JSON reports and append-only JSONL run logs.
+                  <strong>Evaluation &amp; LLMOps Pipeline:</strong> Built an automated <strong>LLM-as-a-Judge</strong> regression harness grading agent responses across factual accuracy, groundedness, and hallucination detection via a 12-case golden dataset with structured JSON telemetry and append-only JSONL run logs.
                 </span>
               </div>
             </div>
@@ -171,7 +167,7 @@ export default function ResumeSection() {
                   <div className="text-xs font-mono-code text-slate-400">June 2017 – June 2025</div>
                 </div>
                 <p className="text-xs text-slate-300 leading-relaxed">
-                  Doubled private brand revenue over 18 months through sales velocity analysis and high-margin product expansion. Managed multi-channel international distribution (Amazon, Wholesale, D2C) across US/UK/EU markets, overseeing regulatory compliance, customs logistics, and supplier negotiations.
+                  Doubled private brand revenue over 18 months through sales velocity analysis, high-margin product expansion, and automated supplier workflows. Managed multi-channel international distribution (Amazon, Wholesale, D2C) across US/UK/EU markets, overseeing regulatory compliance, customs logistics, and supplier negotiations.
                 </p>
               </div>
             </div>

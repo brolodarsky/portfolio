@@ -51,7 +51,7 @@ export default function Navbar() {
               </span>
               <span className="text-[11px] font-mono-code text-slate-400 flex items-center gap-1.5">
                 <span className="inline-block w-1.5 h-1.5 rounded-full bg-indigo-400"></span>
-                Agentic AI Engineer
+                Forward Deployed AI Engineer
               </span>
             </div>
           </a>

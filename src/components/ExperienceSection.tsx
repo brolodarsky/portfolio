@@ -34,11 +34,11 @@ export default function ExperienceSection() {
       badge: "2x Revenue Growth",
       badgeColor: "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
       highlights: [
-        "Identified high-margin product opportunities through sales velocity and competitive data analysis, deploying new product lines that doubled private brand revenue over 18 months.",
+        "Identified high-margin product opportunities through sales velocity and competitive data analysis, deploying new product lines and automated supplier workflows that doubled private brand revenue over 18 months.",
         "Engineered multi-channel international distribution (Amazon, Wholesale, D2C) across US, UK, and EU markets.",
         "Managed regulatory compliance, international customs logistics, product design, marketing campaigns, and multi-tier supplier negotiations.",
       ],
-      skills: ["Operations Leadership", "Supply Chain", "Data Analysis", "Revenue Optimization", "Regulatory Compliance"],
+      skills: ["Process Automation", "Operations Leadership", "Supply Chain", "Data Analysis", "Revenue Optimization"],
     },
     {
       role: "Medical Records & Patient Services",
@@ -49,7 +49,7 @@ export default function ExperienceSection() {
       badgeColor: "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
       highlights: [
         "Co-managed clinical records for a premier high-volume ophthalmology practice, maintaining 100% HIPAA compliance across document handling, retrieval, and clinical transfers.",
-        "Built interactive tracking spreadsheets and scheduling databases for patient service quality, driving measurable improvements in clinical throughput.",
+        "Built interactive tracking spreadsheets and scheduling databases for patient service quality, driving measurable improvements in clinical throughput and reducing retrieval latency.",
       ],
       skills: ["HIPAA Compliance", "Clinical Data Systems", "Process Optimization", "EHR Systems"],
     },
@@ -88,7 +88,7 @@ export default function ExperienceSection() {
           </h2>
           <p className="text-base sm:text-lg text-slate-300 max-w-3xl leading-relaxed">
             Combining rigorous foundation model evaluation with 8 years of operational leadership, 
-            revenue scaling, and mission-critical compliance.
+            business process automation, and mission-critical compliance.
           </p>
         </div>
 

@@ -36,9 +36,9 @@ export const NEXUS_TELEMETRY: NexusTelemetryConfig = {
   shortVersion: "2.10",
   status: "ACTIVE",
   swarm: {
-    label: "Autonomous Swarm",
+    label: "Compound Swarm",
     value: "4 Agents",
-    desc: "LangGraph Router, Librarian, Career & Email subgraphs",
+    desc: "LangGraph State Machines, Domain Ontologies & Subgraphs",
   },
   dpfh: {
     label: "Deterministic Injection",
@@ -46,14 +46,14 @@ export const NEXUS_TELEMETRY: NexusTelemetryConfig = {
     desc: "Zero-cost DPFH directory injection vs chunk fragmentation",
   },
   automation: {
-    label: "Deployed Automation",
+    label: "Operations Automation",
     value: "12 Tools",
     desc: "HL7 CDA XML, ADB Scraper, Playwright PDF, IMAP OAuth",
   },
   evals: {
     label: "Foundation Model Evals",
     value: "300+ Hrs",
-    desc: "Multi-axial alignment, LLM-as-a-Judge test harnesses",
+    desc: "Multi-axial alignment, LLMOps & LLM-as-a-Judge harnesses",
   },
   tools: [
     { name: "HL7 CDA XML Parser", category: "Clinical Health", desc: "Longitudinal clinical record synthesis & lab trend tracking." },
@@ -66,7 +66,7 @@ export const NEXUS_TELEMETRY: NexusTelemetryConfig = {
     { name: "TTS Audio Podcast Generator", category: "Audio", desc: "Automated daily briefing audio synthesis via voice models." },
     { name: "Whisper Voice Transcriber", category: "Multimodal", desc: "Local asynchronous audio capture & thought triage." },
     { name: "Telegram Bot Swarm Relay", category: "Edge Capture", desc: "Mobile prompt execution with user-ID crypt-security." },
-    { name: "Tree-Based Vault Navigator", category: "Filesystem", desc: "Zero-cost directory tree & frontmatter metadata traversal." },
+    { name: "Domain Ontology Navigator", category: "Knowledge Systems", desc: "500+ node structured Zettelkasten semantic layer with tree navigation." },
     { name: "Git-Crypt Secret Enclave", category: "Security", desc: "Zero-knowledge client-side encryption for personal records." },
   ],
 };

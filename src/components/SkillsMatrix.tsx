@@ -10,15 +10,17 @@ export default function SkillsMatrix() {
 
   const skillItems = [
     // Agentic AI
+    { name: "Domain Ontology Engineering", category: "agentic", level: "Specialty", hot: true },
+    { name: "Compound AI Systems", category: "agentic", level: "Production", hot: true },
     { name: "LangGraph", category: "agentic", level: "Production", hot: true },
     { name: "Multi-Agent Swarms", category: "agentic", level: "Production", hot: true },
     { name: "Deterministic Pre-Flight Hydration", category: "agentic", level: "Specialty", hot: true },
+    { name: "Semantic Knowledge Graphs", category: "agentic", level: "Production" },
     { name: "ReAct Tool-Calling", category: "agentic", level: "Production" },
     { name: "LangChain & LangSmith", category: "agentic", level: "Advanced" },
     { name: "Structured Pydantic Outputs", category: "agentic", level: "Production" },
     { name: "Dynamic Prompt Injection", category: "agentic", level: "Advanced" },
     { name: "SSE Trace Streaming", category: "agentic", level: "Production" },
-    { name: "Vector RAG (ChromaDB, HyDE)", category: "agentic", level: "Advanced" },
     { name: "OpenAI API & Anthropic", category: "agentic", level: "Advanced" },
     { name: "Whisper Voice Processing", category: "agentic", level: "Production" },
 
@@ -26,6 +28,7 @@ export default function SkillsMatrix() {
     { name: "Python", category: "fullstack", level: "Expert", hot: true },
     { name: "TypeScript", category: "fullstack", level: "Advanced", hot: true },
     { name: "Next.js 16 (App Router)", category: "fullstack", level: "Advanced", hot: true },
+    { name: "Business Process Automation", category: "fullstack", level: "Advanced", hot: true },
     { name: "React 19", category: "fullstack", level: "Advanced" },
     { name: "FastAPI", category: "fullstack", level: "Advanced" },
     { name: "Tailwind CSS v4", category: "fullstack", level: "Advanced" },
@@ -50,6 +53,7 @@ export default function SkillsMatrix() {
 
     // Evaluations & Safety
     { name: "LLM-as-a-Judge Eval", category: "evals", level: "Specialty", hot: true },
+    { name: "LLMOps & Golden Datasets", category: "evals", level: "Production", hot: true },
     { name: "HITL Two-Phase Commit", category: "evals", level: "Specialty", hot: true },
     { name: "Hallucination Auditing", category: "evals", level: "Expert" },
     { name: "Context Degradation QA", category: "evals", level: "Expert" },
@@ -58,7 +62,7 @@ export default function SkillsMatrix() {
 
   const categories = [
     { id: "all", label: "All Technologies" },
-    { id: "agentic", label: "Agentic AI & LLMs" },
+    { id: "agentic", label: "Compound AI & Agents" },
     { id: "fullstack", label: "Full-Stack & Systems" },
     { id: "infra", label: "Infrastructure & Tools" },
     { id: "evals", label: "Evals & Governance" },

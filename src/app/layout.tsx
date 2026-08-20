@@ -21,19 +21,22 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "William Volodarsky | Agentic AI Engineer & Systems Orchestrator",
+  title: "William Volodarsky | Forward Deployed AI & Systems Engineer",
   description:
-    "Personal Digital Flagship & Engineering Showcase of William Volodarsky. Creator of Nexus, a production multi-agent LangGraph OS with Deterministic Pre-flight Hydration, HITL governance, and 12 deployed automation tools.",
+    "Personal Digital Flagship & Engineering Showcase of William Volodarsky. Forward Deployed AI Engineer specializing in Compound AI Systems, Business Operations Automation, and Domain Ontologies. Creator of Nexus.",
   keywords: [
     "William Volodarsky",
-    "Agentic AI Engineer",
+    "Forward Deployed AI Engineer",
+    "Compound AI Systems",
+    "Domain Ontology Engineering",
+    "Business Operations Automation",
     "LangGraph",
     "Multi-Agent Systems",
     "Deterministic Pre-flight Hydration",
-    "Next.js",
+    "LLMOps",
+    "Next.js 16",
     "Python",
     "HITL AI",
-    "AI Systems Architect",
   ],
   authors: [{ name: "William Volodarsky", url: "https://williamvolodarsky.com" }],
   creator: "William Volodarsky",
@@ -42,16 +45,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://williamvolodarsky.com",
-    title: "William Volodarsky | Agentic AI Engineer & Systems Orchestrator",
+    title: "William Volodarsky | Forward Deployed AI & Systems Engineer",
     description:
-      "Creator of Nexus (Multi-Agent LangGraph OS), AI Training Fellow, and BS CS Magna Cum Laude @ Fordham. Explore live agent architectures, eval pipelines, and systems case studies.",
-    siteName: "William Volodarsky Portfolio",
+      "Creator of Nexus (Compound Agentic Personal OS), AI Training Fellow, and BS CS Magna Cum Laude @ Fordham. Explore live agent architectures, eval pipelines, and systems case studies.",
+    siteName: "William Volodarsky Flagship",
   },
   twitter: {
     card: "summary_large_image",
-    title: "William Volodarsky | Agentic AI Engineer",
+    title: "William Volodarsky | Forward Deployed AI Engineer",
     description:
-      "Creator of Nexus (Multi-Agent LangGraph OS), AI Training Fellow, and Systems Orchestrator.",
+      "Creator of Nexus (Compound Agentic Personal OS), AI Training Fellow, and Systems Architect.",
   },
   robots: {
     index: true,

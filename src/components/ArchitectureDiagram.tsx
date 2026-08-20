@@ -49,11 +49,11 @@ Content-Type: application/json
       - Project - Nexus Agentic Engine.md`,
     },
     librarian: {
-      title: "Librarian Agent & Filesystem Tools",
-      subtitle: "Deterministic Traversal & Regex Grep",
+      title: "Domain Ontology & Librarian Tools",
+      subtitle: "Deterministic Semantic Traversal & Regex Grep",
       description:
-        "The Librarian agent uses 4 core tools (\`read_toc\`, \`read_note\`, \`search_vault\`, \`get_vault_structure\`) to traverse 500+ markdown files, follow wiki-links, and return 100% grounded citations.",
-      tech: ["LangGraph ReAct", "Subprocess Ripgrep", "Wiki-Link Graph Resolver"],
+        "The Librarian agent uses 4 core tools (`read_toc`, `read_note`, `search_vault`, `get_vault_structure`) to traverse a 500+ node domain ontology, follow structured wiki-links, and return 100% grounded citations.",
+      tech: ["LangGraph ReAct", "Subprocess Ripgrep", "Domain Ontology Semantic Layer"],
       code: `class LibrarianTools:
     def read_note(self, path: str) -> str:
         # Validates path against security boundary
@@ -194,8 +194,8 @@ Content-Type: application/json
                     04
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-white">Librarian ReAct &amp; Subgraphs</h4>
-                    <p className="text-[11px] text-slate-400">Filesystem tools &amp; regex subtree traversal</p>
+                    <h4 className="text-sm font-bold text-white">Domain Ontology &amp; Librarian</h4>
+                    <p className="text-[11px] text-slate-400">Semantic tree traversal &amp; regex subtree grep</p>
                   </div>
                 </div>
                 <ArrowRight className="w-4 h-4 text-slate-500" />
