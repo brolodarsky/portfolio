@@ -13,23 +13,16 @@ import {
   Code2,
 } from "lucide-react";
 
-export default function NexusShowcase() {
+import { NEXUS_TELEMETRY, NexusTelemetryConfig } from "@/data/nexusTelemetry";
+
+interface NexusShowcaseProps {
+  telemetry?: NexusTelemetryConfig;
+}
+
+export default function NexusShowcase({ telemetry = NEXUS_TELEMETRY }: NexusShowcaseProps) {
   const [activeTab, setActiveTab] = useState<"dpfh" | "swarm" | "hitl">("dpfh");
 
-  const tools = [
-    { name: "HL7 CDA XML Parser", category: "Clinical Health", desc: "Longitudinal clinical record synthesis & lab trend tracking." },
-    { name: "11-Platform ADB Scraper", category: "Mobile Ops", desc: "Android screen capture with multi-scroll OCR deduplication." },
-    { name: "Dual Resume Engine", category: "Document Systems", desc: "Headless Playwright PDF & python-docx with page-fill metric audits." },
-    { name: "Google OAuth2 IMAP Sync", category: "Communication", desc: "Asynchronous email ingestion & priority triage pipeline." },
-    { name: "LLM-as-a-Judge Harness", category: "Evaluation", desc: "12-case golden dataset test runner with JSON scoring reports." },
-    { name: "Monaco HITL Diff Queue", category: "Governance", desc: "Pre-commit side-by-side file write review in SQLite." },
-    { name: "Trafilatura Web Distiller", category: "Content", desc: "Deterministic article cleaning & atomic Zettelkasten synthesis." },
-    { name: "TTS Audio Podcast Generator", category: "Audio", desc: "Automated daily briefing audio synthesis via voice models." },
-    { name: "Whisper Voice Transcriber", category: "Multimodal", desc: "Local asynchronous audio capture & thought triage." },
-    { name: "Telegram Bot Swarm Relay", category: "Edge Capture", desc: "Mobile prompt execution with user-ID crypt-security." },
-    { name: "Tree-Based Vault Navigator", category: "Filesystem", desc: "Zero-cost directory tree & frontmatter metadata traversal." },
-    { name: "Git-Crypt Secret Enclave", category: "Security", desc: "Zero-knowledge client-side encryption for personal records." },
-  ];
+  const tools = telemetry.tools;
 
   return (
     <section id="nexus" className="py-24 relative bg-[#080a0f] border-t border-white/[0.06]">

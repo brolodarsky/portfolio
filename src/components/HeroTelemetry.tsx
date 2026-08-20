@@ -14,7 +14,13 @@ import {
 } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./SocialIcons";
 
-export default function HeroTelemetry() {
+import { NEXUS_TELEMETRY, NexusTelemetryConfig } from "@/data/nexusTelemetry";
+
+interface HeroTelemetryProps {
+  telemetry?: NexusTelemetryConfig;
+}
+
+export default function HeroTelemetry({ telemetry = NEXUS_TELEMETRY }: HeroTelemetryProps) {
   const [timeString, setTimeString] = useState<string>("");
 
   useEffect(() => {
@@ -37,33 +43,33 @@ export default function HeroTelemetry() {
 
   const stats = [
     {
-      label: "Autonomous Swarm",
-      value: "4 Agents",
-      desc: "LangGraph Router, Librarian, Career & Email subgraphs",
+      label: telemetry.swarm.label,
+      value: telemetry.swarm.value,
+      desc: telemetry.swarm.desc,
       icon: <Bot className="w-4 h-4 text-indigo-400" />,
       accent: "from-indigo-500/20 to-indigo-500/5",
       border: "border-indigo-500/20",
     },
     {
-      label: "Deterministic Injection",
-      value: "99.8%",
-      desc: "Zero-cost DPFH directory injection vs chunk fragmentation",
+      label: telemetry.dpfh.label,
+      value: telemetry.dpfh.value,
+      desc: telemetry.dpfh.desc,
       icon: <Zap className="w-4 h-4 text-cyan-400" />,
       accent: "from-cyan-500/20 to-cyan-500/5",
       border: "border-cyan-500/20",
     },
     {
-      label: "Deployed Automation",
-      value: "12 Tools",
-      desc: "HL7 CDA XML, ADB Scraper, Playwright PDF, IMAP OAuth",
+      label: telemetry.automation.label,
+      value: telemetry.automation.value,
+      desc: telemetry.automation.desc,
       icon: <Layers className="w-4 h-4 text-purple-400" />,
       accent: "from-purple-500/20 to-purple-500/5",
       border: "border-purple-500/20",
     },
     {
-      label: "Foundation Model Evals",
-      value: "300+ Hrs",
-      desc: "Multi-axial alignment, LLM-as-a-Judge test harnesses",
+      label: telemetry.evals.label,
+      value: telemetry.evals.value,
+      desc: telemetry.evals.desc,
       icon: <ShieldCheck className="w-4 h-4 text-emerald-400" />,
       accent: "from-emerald-500/20 to-emerald-500/5",
       border: "border-emerald-500/20",
@@ -87,7 +93,9 @@ export default function HeroTelemetry() {
               <Terminal className="w-3.5 h-3.5 text-indigo-400" />
               <span className="text-slate-400">ENGINE_OS</span>
               <span className="text-slate-600">::</span>
-              <span className="text-emerald-400 font-semibold">NEXUS_v1.4_ACTIVE</span>
+              <span className="text-emerald-400 font-semibold">
+                {`NEXUS_v${telemetry.shortVersion}_${telemetry.status}`}
+              </span>
             </div>
             <span className="h-3 w-[1px] bg-white/10" />
             <div className="text-[11px] font-mono-code text-slate-400 flex items-center gap-1.5">

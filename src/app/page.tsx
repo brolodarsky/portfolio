@@ -8,8 +8,11 @@ import SkillsMatrix from "@/components/SkillsMatrix";
 import ResumeSection from "@/components/ResumeSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import { getNexusTelemetry } from "@/lib/nexusData";
 
-export default function Home() {
+export default async function Home() {
+  const telemetry = await getNexusTelemetry();
+
   return (
     <div className="flex flex-col min-h-screen bg-[#080a0f] text-slate-100 selection:bg-indigo-500/30 selection:text-white">
       {/* Global Navigation */}
@@ -18,10 +21,10 @@ export default function Home() {
       {/* Main Content Sections */}
       <main className="flex-grow">
         {/* 1. Command Hero & Telemetry HUD */}
-        <HeroTelemetry />
+        <HeroTelemetry telemetry={telemetry} />
 
         {/* 2. Nexus Flagship Showcase & DPFH vs Vector RAG */}
-        <NexusShowcase />
+        <NexusShowcase telemetry={telemetry} />
 
         {/* 3. Interactive Execution DAG Pipeline */}
         <ArchitectureDiagram />
