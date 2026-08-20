@@ -32,8 +32,8 @@ export interface NexusTelemetryConfig {
 }
 
 export const NEXUS_TELEMETRY: NexusTelemetryConfig = {
-  version: "2.9.0",
-  shortVersion: "2.9",
+  version: "2.10.0",
+  shortVersion: "2.10",
   status: "ACTIVE",
   swarm: {
     label: "Autonomous Swarm",
