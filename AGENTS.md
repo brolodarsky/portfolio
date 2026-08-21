@@ -22,6 +22,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 2. **Public Redaction & Privacy Boundary:** This site is a public showcase. Never hardcode or leak private medical data, personal journals, unredacted financial records, or secret API keys.
 3. **Next.js App Router Conventions:** Keep pages as Server Components by default (`src/app/page.tsx`). Isolate client state, intervals, and window event listeners into modular `"use client"` components.
 4. **Centralized Single Source of Truth:** All telemetry metrics, engine version numbers, and tool catalogs must reside in `src/data/nexusTelemetry.ts`. Server-side dynamic fetchers live in `src/lib/nexusData.ts` with ISR (`revalidate: 3600`).
+5. **Granular Educational Commenting (Learning-First):** Code must be richly annotated with educational comments. Break down complex types, generics, async flows, React hooks, and Next.js server/client boundaries line-by-line using compact, punchy 1-line notes and concrete examples with minimal character/space footprint. Never strip or compress existing educational comments during refactors.
+
+
 
 ## 3. Deployment & Git Workflow (Mandatory)
 1. **Pre-commit Verification:** Always run `npm run build` to verify TypeScript compilation, React boundaries, and static page generation before committing.
